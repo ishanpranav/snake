@@ -65,7 +65,7 @@ public class Snake implements Drawable
         }
     }
 
-    /** Follows the fruit.  */
+    /** Follows the fruit. */
     public final void follow()
     {
         this._follow = true;

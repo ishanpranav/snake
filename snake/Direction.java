@@ -22,8 +22,8 @@ public enum Direction
     /** The right direction. */
     RIGHT(1, 0);
 
-    private int _horizontalComponent;
-    private int _verticalComponent;
+    private final int _horizontalComponent;
+    private final int _verticalComponent;
 
     Direction(int horizontalComponent, int verticalComponent)
     {
